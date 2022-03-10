@@ -338,8 +338,8 @@ footer{
   }
   .liveArea{    
     background: url(../images/visualBg_mb.png) no-repeat;
-    background-size: contain;
-    background-position: center;
+    background-size: 100% 100%;
+    background-position: top;
   }
   .liveBox {
     width: 80%;
@@ -387,11 +387,14 @@ footer{
     background-position: top; 
   }
   .rightBox { font-size: 1rem;}
-  .liveBox { width: 100%;}
+  .liveBox,.conBox_mb { width: 100%;}
   .sectionTitle{ margin-bottom: 2%;}
   .logo,.more{ width: 50%;}
   footer { padding: 30px 30px 170px 30px;}
-  .play { padding: 2px 8px;}
+  .play { 
+    padding: 2px 8px;
+    margin-top: 2%;
+  }
   .s5Title{ width: 140px;}
   h3 { 
     font-size: 0.9375rem;
