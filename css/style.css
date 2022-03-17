@@ -35,6 +35,7 @@ header{ padding: 0% 5%;}
 .logo{ 
   width: 20%; 
   padding: 16px;
+  filter: drop-shadow(2px 4px 6px #333333);
 }
 .headerRight{
   text-align: right;
